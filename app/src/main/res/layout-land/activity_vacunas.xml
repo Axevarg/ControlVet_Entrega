@@ -15,7 +15,7 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="302dp"
+            android:layout_width="269dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/vacunaaaa" />

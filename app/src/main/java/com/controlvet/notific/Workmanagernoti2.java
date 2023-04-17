@@ -2,9 +2,7 @@ package com.controlvet.notific;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Build;
 
 import androidx.annotation.NonNull;
@@ -14,8 +12,6 @@ import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
-
-import com.example.notific.R;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -61,7 +57,7 @@ public class Workmanagernoti2 extends Worker {
         builder.setAutoCancel(true).setWhen(System.currentTimeMillis())
                 .setContentTitle(t)
                 .setTicker("Nueva Notificacion")
-                .setSmallIcon(R.mipmap.ic_launcher)
+
                 .setContentText(d)
 
                 .setContentInfo("nuevo");

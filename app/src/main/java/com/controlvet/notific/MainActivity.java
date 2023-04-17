@@ -21,6 +21,8 @@ import androidx.core.content.ContextCompat;
 
 import com.controlvet.notific.bd.DbHelper;
 import com.controlvet.notific.bd.DbMascotas;
+import com.controlvet.notific.notific.CrearArticulo;
+import com.controlvet.notific.notific.PrincipalOtros;
 import com.example.notific.R;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -114,6 +116,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menuAddNoti:
                 addNoti();
                 return true;
+            case R.id.menuBuscar:
+                map();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -167,6 +172,21 @@ public class MainActivity extends AppCompatActivity {
         startActivity(siguiente4);
     }
 
+    public void Otros(View view){
+        Intent irmap = new Intent(this, CrearArticulo.class);
+        startActivity(irmap);
+    }
+
+
+    public void main2(View view){
+        Intent ir = new Intent(this, PrincipalOtros.class);
+        startActivity(ir);
+    }
+
+    public void map(){
+        Intent irmap = new Intent(this, Mainwebloc.class);
+        startActivity(irmap);
+    }
 
 
 

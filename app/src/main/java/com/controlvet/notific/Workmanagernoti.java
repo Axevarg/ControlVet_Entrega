@@ -15,8 +15,6 @@ import androidx.work.WorkManager;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
 
-import com.example.notific.R;
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -66,7 +64,6 @@ public class Workmanagernoti extends Worker {
         builder.setAutoCancel(true).setWhen(System.currentTimeMillis())
                 .setContentTitle(t)
                 .setTicker("Nueva Notificacion")
-                .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentText(d)
                 .setContentIntent(pendingIntent)
                 .setContentInfo("nuevo");

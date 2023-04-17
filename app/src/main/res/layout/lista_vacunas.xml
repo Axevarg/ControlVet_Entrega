@@ -7,12 +7,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="MicroChip: "
-            android:textColor="#1565c0"
+            android:textColor="#8543ED"
             android:textSize="16dp"
             android:textStyle="bold"></TextView>
         <TextView
@@ -30,12 +31,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:textStyle="bold">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Vacuna Aplicada: "
-            android:textColor="#1565c0"
+            android:textColor="#8543ED"
             android:textSize="16dp"
             android:textStyle="bold"></TextView>
         <TextView
@@ -52,12 +54,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="141dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Diluente Aplicado:"
-            android:textColor="#1565c0"
+            android:textColor="#8543ED"
             android:textSize="16dp"
             android:textStyle="bold"></TextView>
         <TextView
@@ -74,12 +77,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Fecha de Aplicación:"
-            android:textColor="#1565c0"
+            android:textColor="#8543ED"
             android:textSize="16dp"
             android:textStyle="bold"></TextView>
         <TextView
@@ -96,12 +100,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Fecha de Proxima Vacuna:"
-            android:textColor="#1565c0"
+            android:textColor="#8543ED"
             android:textSize="16dp"
             android:textStyle="bold"></TextView>
         <TextView
